@@ -62,11 +62,11 @@ The system accepts candidate submissions through Typeform with fields for:
 - Email
 - Resume upload (PDF/DOC)
 
-## Dashboard
+### Dashboard
 
 TalentNexus includes a web-based dashboard built with Streamlit for visualizing and managing candidate evaluations.
 
-### Running the Dashboard
+#### Running the Dashboard
 
 To launch the dashboard interface:
 
@@ -76,7 +76,7 @@ streamlit run dashboard.py
 
 The dashboard will be accessible through your web browser, typically at `http://localhost:8501`.
 
-### API Endpoints
+### Application API Endpoints
 
 - `/`: Welcome endpoint
 - `/webhook`: Handles Typeform submission webhooks
