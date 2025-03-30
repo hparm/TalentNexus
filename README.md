@@ -37,9 +37,11 @@ Required packages:
 
 Create a `.env` file in the root directory with:
 
+```python
 LLM_MODEL=claude-3-7-sonnet-20250219 
 ANTHROPIC_API_KEY=your_api_key 
 TYPEFORM_API_KEY=your_api_key
+```
 
 
 ## Database
