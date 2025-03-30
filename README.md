@@ -75,7 +75,6 @@ The system accepts candidate submissions through Typeform with fields for:
 client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 orchestrator = WorkflowOrchestrator(client)
 result = orchestrator.process_new_candidate(candidate, role)
-```
 
 ## Project Structure
 
@@ -93,6 +92,7 @@ result = orchestrator.process_new_candidate(candidate, role)
 ├── dashboard.py
 ├── requirements.txt
 └── .env
+```
 
 ## Features
 
