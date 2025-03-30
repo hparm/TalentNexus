@@ -89,11 +89,12 @@ result = orchestrator.process_new_candidate(candidate, role)
 ├── evaluation.py
 ├── requirements.txt
 └── .env
+```
 
-## Features
+### Features
 
-* PDF and DOC resume parsing
-* Automated candidate evaluation
-* Multi-stage review process
-* Precise experience calculation
-* Standardized scoring system (1-10 scale)
+- PDF and DOC resume parsing
+- Automated candidate evaluation
+- Multi-stage review process
+- Precise experience calculation
+- Standardized scoring system (1-10 scale)
