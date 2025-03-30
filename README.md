@@ -61,6 +61,8 @@ The system accepts candidate submissions through Typeform with fields for:
 - Email
 - Resume upload (PDF/DOC)
 
+
+
 ### API Endpoints
 
 - `/`: Welcome endpoint
@@ -73,6 +75,7 @@ The system accepts candidate submissions through Typeform with fields for:
 client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 orchestrator = WorkflowOrchestrator(client)
 result = orchestrator.process_new_candidate(candidate, role)
+```
 
 ## Project Structure
 
@@ -87,11 +90,11 @@ result = orchestrator.process_new_candidate(candidate, role)
 │   └── db_helper.py
 ├── utils.py
 ├── evaluation.py
+├── dashboard.py
 ├── requirements.txt
 └── .env
-```
 
-### Features
+## Features
 
 - PDF and DOC resume parsing
 - Automated candidate evaluation
