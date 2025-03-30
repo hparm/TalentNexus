@@ -1,0 +1,5 @@
+typeform
+sqlite3
+anthropic
+pypdf2
+python-docx

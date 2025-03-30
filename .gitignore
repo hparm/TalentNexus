@@ -1,0 +1,8 @@
+.env
+*.ipynb
+db/*.db
+__pycache__/
+presentation/
+downloads/
+resume/
+quick_commands.txt
