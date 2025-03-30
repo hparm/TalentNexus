@@ -50,6 +50,7 @@ TYPEFORM_API_KEY=your_api_key
 The project uses SQLite database (`db/talentnexus.db`) with the following main tables:
 - candidates
 - roles
+- evaluations
 
 ## Usage
 
